@@ -8,7 +8,7 @@
 }
 
 *,:after,:before{
-    box-sizing:border-box
+    box-sizing:border-box;
 }
 
 body,html{
@@ -30,77 +30,76 @@ body{
     font-family:source sans pro,helvetica,arial;
     font-weight:300;
     font-size:18px;
-}
-p{
-    font-size:1em
-}
-.p--copy{
-    padding:3px 0 22px;
-}
-.p--credits{
-    font-size:.8em;font-weight:700;
-}
-h1,h2{
-    font-size:1.5em;font-weight:700;
-}
-a{
-    color:#fff;font-weight:700;text-decoration:none;
-}
-.a--no-weight{
-    font-weight:300;
-}
-section{
-    padding:0;margin:0;position:relative;
-    width:100%;display:flex;
-    align-items:center;flex-wrap:wrap;
-}
-section .content{
-    background:rgba(0,0,0,.4);
-    color:#fff;border-radius:3px;
-    padding:15px 20px;margin:0 auto;
-    text-align:center;
-}
-.parallax--container{
-    position:absolute;
-    clip:rect(0,auto,auto,0);
-    width:100%;height:100%;top:0;left:0;
-    z-index:-10;
-}
-.parallax{
-    position:fixed;
-    width:100%;
-    height:100%;
-    top:0;
-    left:0;
-}
-.parallax--bg{
-    background-repeat:no-repeat;
-    background-position:center;
-    background-size:cover;
-}
-.container--huge{
-    height:175vh;
-}
-    
-.container--big{
-    height:100vh;
-    background-image: url(../img/top_veiw.jpg);
-    background-size: cover;
-    background-position: center;
-}
-.container--small{
-    height:40vh;
-}
-.container--random{
-    height:452px;
+
+    main{
+        section{
+            padding:0;
+            margin:0;
+            position:relative;
+            width:100%;
+            display:flex;
+            align-items:center;
+            flex-wrap:wrap;
+
+            .content{
+                background:rgba(0,0,0,.4);
+                color:#fff;
+                border-radius:3px;
+                padding:15px 20px;
+                margin:0 auto;
+                text-align:center;
+            }
+        }
+        .parallax{
+            position:fixed;
+            width:100%;
+            height:100%;
+            top:0;
+            left:0;
+        }
+        .parallax--bg{
+            background-repeat:no-repeat;
+            background-position:center;
+            background-size:cover;
+        }
+        .parallax--container{
+            position:absolute;
+            clip:rect(0,auto,auto,0);
+            width:100%;height:100%;top:0;left:0;
+            z-index:-10;
+        }
+
+        .container--huge{
+            height:175vh;
+        }
+            
+        .container--big{
+            height:100vh;
+            background-image: url(../img/top_veiw.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .container--small{
+            height:40vh;
+        }
+        .container--random{
+            height:452px;
+        }
+        
+        .bg1{
+            background-image:url(../img/terrace_view.jpg);
+        }
+        #bg3{
+            background-image:url(../img/terrace_view.jpg);
+        }
+
+    }
 }
 
-.bg1{
-    background-image:url(../img/terrace_view.jpg);
-}
-#bg3{
-    background-image:url(../img/terrace_view.jpg);
-}
+
+
+
+
 
 .contentText{
 

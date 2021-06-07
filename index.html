@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,64 +9,82 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>ParallaxSass</title>
 </head>
-<body>
-    <!--section1 top-->
-    <section class="container container--big">
-        <div class="content">
-            <h1>Universal Parallax</h1>
-            <blockquote>
-            Section One
-            </blockquote>
-        </div>
-        <div class="parallax parallax--bg bg1"></div>
-    </section>
-    <!--section2 discription-->
-    <section class="container container--small">
-        <div class="content">
-            <blockquote>
-                Section Two
-            </blockquote>
-            <div class="contentText">
-                <p>aaaaaaa</p>
-                <p>aaaaaaa</p>
-                </div>
-        </div>
-        <div class="parallax parallax--bg" data-parallax-image="https://lpeg.info/images/parallax_basic_img2.jpg">
-        </div>
-    <!--section3 discription-->
-    </section>
-    
-    <section class="container container--huge">
-        <div class="content">
-            <blockquote>
-                Section Three
-            </blockquote>
-        </div>
-        <div class="parallax parallax--bg" id="bg3" style="height: 907.25px; top: 87.3984px;"></div>
-    </section>
-    <!--section4 discription-->
-    <section class="container container--big">
-        <div class="content">
-            <blockquote>
-                Section Two Four
-            </blockquote>
-        </div>
-        <div class="parallax" data-parallax-image="https://lpeg.info/images/parallax_basic_img3.jpg">
-        </div>
-    </section>
 
-    <section class="container container--huge">
-        <div class="content">
-            <blockquote>
-                Section Three
-            </blockquote>
+<body>
+    <!-- <header>
+        <div class="header-left">
+            <h1>Daige Blue</h1>
         </div>
-        <div class="parallax parallax--bg" id="bg3"></div>
-    </section>
-    
-        <script src="./assets/js/universal-parallax.min.js"></script>
-        <script>
-            new universalParallax().init();
-        </script>
+        <div class="header-right">
+            <nav>
+                <ul class="global-nav">
+                    <li>About</li>
+                    <li>Room</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+        </div>
+    </header> -->
+    <main>
+        <!--section1 top-->
+        <section class="container container--big">
+            <div class="content">
+                <h1>Universal Parallax</h1>
+                <blockquote>
+                    Section One
+                </blockquote>
+            </div>
+            <div class="parallax parallax--bg bg1"></div>
+        </section>
+        <!--section2 discription-->
+        <section class="container container--small">
+            <div class="content">
+                <blockquote>
+                    Section Two
+                </blockquote>
+                <div class="contentText">
+                    <p>aaaaaaa</p>
+                    <p>aaaaaaa</p>
+                </div>
+            </div>
+            <div class="parallax parallax--bg" data-parallax-image="https://lpeg.info/images/parallax_basic_img2.jpg">
+            </div>
+            <!--section3 discription-->
+        </section>
+
+        <section class="container container--huge">
+            <div class="content">
+                <blockquote>
+                    Section Three
+                </blockquote>
+            </div>
+            <div class="parallax parallax--bg" id="bg3" style="height: 907.25px; top: 87.3984px;"></div>
+        </section>
+        <!--section4 discription-->
+        <section class="container container--big">
+            <div class="content">
+                <blockquote>
+                    Section Two Four
+                </blockquote>
+            </div>
+            <div class="parallax" data-parallax-image="https://lpeg.info/images/parallax_basic_img3.jpg">
+            </div>
+        </section>
+
+        <section class="container container--huge">
+            <div class="content">
+                <blockquote>
+                    Section Three
+                </blockquote>
+            </div>
+            <div class="parallax parallax--bg" id="bg3"></div>
+        </section>
+    </main>
+
+    <script src="./assets/js/universal-parallax.min.js"></script>
+    <script>
+        new universalParallax().init();
+    </script>
 </body>
+
 </html>
