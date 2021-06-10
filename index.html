@@ -7,56 +7,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Fredericka+the+Great&display=swap" rel="stylesheet">   
     <title>ParallaxSass</title>
 </head>
 
 <body>
-    <!-- <header>
-        <div class="header-left">
-            <h1>Daige Blue</h1>
+    <header>
+        <div class="inner">
+            <div class="header-left">
+                <h1>Daige Blue</h1>
+            </div>
+            <div class="header-right">
+                <nav>
+                    <ul class="global-nav">
+                        <li><a href="">About</a></li>
+                        <li><a href="">Room</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-        <div class="header-right">
-            <nav>
-                <ul class="global-nav">
-                    <li>About</li>
-                    <li>Room</li>
-                    <li>Contact</li>
-                </ul>
-            </nav>
-        </div>
-    </header> -->
+    </header>
     <main>
         <!--section1 top-->
         <section class="container container--big">
             <div class="content">
-                <h1>Universal Parallax</h1>
-                <blockquote>
-                    Section One
-                </blockquote>
+                <h1>Parallax</h1>
+
             </div>
             <div class="parallax parallax--bg bg1"></div>
         </section>
         <!--section2 discription-->
         <section class="container container--small">
             <div class="content">
-                <blockquote>
-                    Section Two
-                </blockquote>
                 <div class="contentText">
                     <p>aaaaaaa</p>
                     <p>aaaaaaa</p>
                 </div>
             </div>
-            <div class="parallax parallax--bg" data-parallax-image="https://lpeg.info/images/parallax_basic_img2.jpg">
+            <div class="parallax parallax--bg" data-parallax-image="https://images.unsplash.com/photo-1583212292454-1fe6229603b7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2167&q=80">
             </div>
             <!--section3 discription-->
         </section>
 
         <section class="container container--huge">
             <div class="content">
-                <blockquote>
-                    Section Three
-                </blockquote>
+                <div class="contentText">
+                    <p>aaaaaaa</p>
+                    <p>aaaaaaa</p>
+                </div>
             </div>
             <div class="parallax parallax--bg" id="bg3" style="height: 907.25px; top: 87.3984px;"></div>
         </section>
@@ -79,8 +79,14 @@
             </div>
             <div class="parallax parallax--bg" id="bg3"></div>
         </section>
+        <footer>
+            <div class="inner">
+                <p class="copyright">@faafafafaf</p>
+            </div>
+        </footer>
     </main>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./assets/js/main.js"></script>
     <script src="./assets/js/universal-parallax.min.js"></script>
     <script>
         new universalParallax().init();
